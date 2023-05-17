@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+.nav h1{
+    margin-left: 20px;   
+}
+
+.nav ul{
+    margin-left: auto;
+    margin-right: 20px;
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.home,.about,
+.contact,
+.services,
+.error {
+    height: calc(100vh - 50px);
+    font-size: 4rem;
+    font-weight: 700;
+    display: grid;
+    place-items: center;
+}
+
+p,span,h2{
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+span{
+    font-weight: 600;
+}
